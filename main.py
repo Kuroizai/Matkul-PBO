@@ -1,10 +1,4 @@
 import wx
-from wx.core import Size
-
-
-
-
-
 
 if __name__=='__main__':
     app = wx.App()
