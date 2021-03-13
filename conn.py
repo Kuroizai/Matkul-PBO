@@ -1,13 +1,13 @@
-# import mysql.connector as sqlconn
+import mysql.connector as sqlconn
 
 
 
-# mydb = sqlconn.connect(
-#     host ='localhost',
-#     user = 'mypc',
-#     password = 'aln123tnt',
-#     database = 'mypc'
-# )
+mydb = sqlconn.connect(
+    host ='localhost',
+    user = 'mypc',
+    password = 'aln123tnt',
+    database = 'mypc'
+)
 # print(mydb)
 # # curs = mydb.cursor()
 # # query = """CREATE TABLE IF NOT EXISTS ACCOUNT  (
@@ -19,4 +19,4 @@
 
 # # curs.execute(query)
 
-import numpy
+# import numpy
